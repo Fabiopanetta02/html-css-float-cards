@@ -1,0 +1,38 @@
+:root{
+    --pink: #E53170;
+    --azzurro: #3891C6;
+}
+
+
+/* Generics */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Fredoka', sans-serif; 
+  }
+
+  h1{
+      color: var(--pink);
+      text-align: center;
+      margin: 40px 0;
+  }
+
+
+
+
+  /* Utils */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+
+  /* main */
+  p{
+      text-align: center;
+  }
